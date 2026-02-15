@@ -1,9 +1,9 @@
-emailjs.init("cpSCquBBFRj9lwNG6");
+emailjs.init("cDEMO");
 
 document.querySelector(".contacto-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_jnsdsan", "template_r83f1kj", this)
+    emailjs.sendForm("service_DEMO", "template_demo", this)
         .then(function() {
             alert("Mensaje enviado correctamente");
         }, function(error) {
